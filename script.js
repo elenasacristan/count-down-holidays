@@ -1,4 +1,4 @@
-//$(".btn").click(function(){
+$(".btn").click(function(){
 // Set the date we're counting down to
 var countDownDate = new Date("Aug 23, 2019 17:30:00").getTime();
 
@@ -29,7 +29,7 @@ var x = setInterval(function() {
   
 }, 1000);
 
- // });
+  });
 
 
 
