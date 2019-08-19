@@ -1,3 +1,4 @@
+$(".button").click(function(){
 // Set the date we're counting down to
 var countDownDate = new Date("Aug 23, 2019 17:30:00").getTime();
 
@@ -16,19 +17,19 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Output the result in an element with id="demo"
-  $(".button").click(function(){
+  
   document.getElementById("demo").innerHTML =
     days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
     if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "You are on holidaysssss!!!!!";
   }
-  });
+
   // If the count down is over, write some text
   
 }, 1000);
 
-
+  });
 
 
 
