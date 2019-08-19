@@ -25,3 +25,8 @@ var x = setInterval(function() {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
+
+
+$("button").click(function(){
+  $("#demo").show();
+});
