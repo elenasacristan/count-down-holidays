@@ -26,6 +26,7 @@ var x = setInterval(function() {
   }
 }, 1000);
 
+ $("#demo").hide();
 
 $(".button").click(function(){
   $("#demo").show();
