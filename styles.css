@@ -8,13 +8,13 @@ font-size: 18px;
 }
 
 img{
-display: none;
+width:100%;
 }
 
 #demo {
     color: green;
     font-size: 30px;
-    margin-top:200px;
+    margin-top:50px;
 }
 
 .hide {
