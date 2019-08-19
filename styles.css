@@ -8,12 +8,12 @@ font-size: 18px;
 }
 
 img{
-width:80%;
+width:100%;
 }
 
 #demo {
     color: green;
-    font-size: 25px;
+    font-size: 20px;
     margin-top:50px;
 }
 
@@ -24,4 +24,8 @@ width:80%;
 button{
 margin-top:15px;
 height:80px;
+}
+
+#happy{
+width:80%;
 }
