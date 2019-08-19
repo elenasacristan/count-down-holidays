@@ -1,6 +1,14 @@
+
+p, button{
+    text-align: center;
+}
+
+p {
+font-size: 18px;
+}
+
 #demo {
     color: green;
     font-size: 30px;
-    text-align: center;
     margin-top:200px;
 }
