@@ -16,3 +16,7 @@ display: none;
     font-size: 30px;
     margin-top:200px;
 }
+
+.hide {
+    display: none;
+}
