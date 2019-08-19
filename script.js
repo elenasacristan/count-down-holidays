@@ -1,5 +1,5 @@
 $(".btn").click(function(){
-$("img").removeClass('hide');
+$(".happy").removeClass('hide');
 // Set the date we're counting down to
 var countDownDate = new Date("Aug 23, 2019 17:30:00").getTime();
 
