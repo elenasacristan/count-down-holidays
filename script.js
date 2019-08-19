@@ -27,7 +27,7 @@ var x = setInterval(function() {
 
   // If the count down is over, write some text
   
-}, 1000);
+}, 300);
 
   });
 
