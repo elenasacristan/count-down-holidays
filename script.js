@@ -19,7 +19,7 @@ var x = setInterval(function() {
   // Output the result in an element with id="demo"
   
   document.getElementById("demo").innerHTML =
-    days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
+    "It's only" + days + "days " + hours + "hours " + minutes + "minutes " + seconds + "seconds until we are on holidays!!!!";
     if (distance < 0) {
     clearInterval(x);
     document.getElementById("demo").innerHTML = "You are on holidaysssss!!!!!";
