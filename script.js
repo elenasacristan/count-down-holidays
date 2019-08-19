@@ -16,18 +16,19 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
 
   // Output the result in an element with id="demo"
+  $(".button").click(function(){
   document.getElementById("demo").innerHTML =
     days + "d " + hours + "h " + minutes + "m " + seconds + "s ";
-
-  // If the count down is over, write some text
-  if (distance < 0) {
+    if (distance < 0) {
     clearInterval(x);
-    document.getElementById("demo").innerHTML = "EXPIRED";
+    document.getElementById("demo").innerHTML = "You are on holidaysssss!!!!!";
   }
+  });
+  // If the count down is over, write some text
+  
 }, 1000);
 
- $("#demo").hide();
 
-$(".button").click(function(){
-  $("#demo").show();
-});
+
+
+
